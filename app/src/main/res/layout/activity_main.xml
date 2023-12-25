@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/color_main">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:text="Tarixiy shaxarlar"
+            android:textColor="@color/white"
+
+            android:textSize="24sp" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_main_light">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_right">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/toshkent"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Toshkent"
+                           style="@style/txt_name_style" />
+
+                       <View
+                           android:id="@+id/view_tashkent"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_left">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/samarqand"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Samarqand"
+                           style="@style/txt_name_style" />
+
+                       <View
+                           android:id="@+id/view_samarqand"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_right">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/buxoro"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Buxoro"
+                           style="@style/txt_name_style" />
+
+
+                       <View
+                           android:id="@+id/view_buxoro"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_left">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/xiva"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Xiva"
+                           style="@style/txt_name_style" />
+
+
+                       <View
+                           android:id="@+id/view_xiva"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_right">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/shaxrisabz"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Shaxrisabz"
+                           style="@style/txt_name_style" />
+
+
+                       <View
+                           android:id="@+id/view_shaxrisabz"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_left">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/navoiy"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Navoiy"
+                           style="@style/txt_name_style" />
+
+
+                       <View
+                           android:id="@+id/view_navoiy"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_right">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/zomin"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Zomin"
+                           style="@style/txt_name_style" />
+
+
+                       <View
+                           android:id="@+id/view_zomin"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_left">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/termiz"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Termiz"
+                           style="@style/txt_name_style" />
+
+
+                       <View
+                           android:id="@+id/view_termiz"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_right">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/guliston"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Guliston"
+                           style="@style/txt_name_style" />
+
+
+                       <View
+                           android:id="@+id/view_guliston"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   style="@style/card_style_left">
+                   <FrameLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1">
+
+
+                       <ImageView
+                           android:src="@drawable/qoqon"
+                           style="@style/img_main_style" />
+                       <TextView
+                           android:text="Qo'qon"
+                           style="@style/txt_name_style" />
+
+
+                       <View
+
+                           android:id="@+id/view_qoqon"
+                           style="@style/view_main_style" />
+
+                   </FrameLayout>
+
+               </androidx.cardview.widget.CardView>
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
